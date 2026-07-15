@@ -267,7 +267,7 @@ header {
 /* Fondo de toda la sección */
 #formWhatsApp {
     background-color: var(--beige);
-    padding: 70px 0;
+    padding: 15px 0 30px 0;
 }
 
 /* Título principal */
@@ -286,9 +286,10 @@ header {
     gap: 40px;
     background: var(--color-bg-light);
     border-radius: 18px;
-    padding: 50px;
+    padding: 30px 50px 0px 50px;
     box-shadow: 0 6px 30px rgba(0,0,0,0.08);
     align-items: center;
+    margin-bottom: 70px;
 }
 
 /* Imagen */

@@ -25,7 +25,7 @@ document.getElementById('formWhatsApp').addEventListener('submit', function(e) {
                 `*Fuerza:* ${fuerza}%0A` +
                 `*Mensaje:* ${mensaje}`;
 
-    let url = `https://wa.me/573212281546?text=${texto}`;
+    let url = `https://wa.me/+57.3212281546?text=${texto}`;
 
     // Abrir WhatsApp
     window.open(url, '_blank');

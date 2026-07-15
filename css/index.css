@@ -45,18 +45,16 @@ header {
 
 .navbar {
     padding: 12px 0px;
-}
-
-.navbar .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+
 /*LOGO  */
 .navbar-logo {
     margin-left: 20px;
-    width: 180px;
+    width: 200px;
 }
 
 /* LINKS PRINCIPALES */
@@ -67,6 +65,10 @@ header {
     margin: 0;
     padding: 0;
     flex-direction: row;
+}
+
+#navbarNav{
+    font-size: 25px;
 }
 
 .nav-link {
@@ -632,7 +634,7 @@ header {
 
 .slick-dotted.slick-slider {
     margin-bottom: 30px;
-    margin-left: 190px;
+    margin-left: 390px;
 }
 
 .slick-dots li button:before {
